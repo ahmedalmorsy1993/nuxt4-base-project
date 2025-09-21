@@ -3,7 +3,7 @@
     class="flex justify-between items-center p-4 bg-gray-100 text-gray-800 min-h-[80px]"
   >
     <NuxtLink to="/">Home</NuxtLink>
-    <NuxtLink to="/about">About</NuxtLink>
+    <NuxtLink to="/">test</NuxtLink>
   </nav>
 </template>
 

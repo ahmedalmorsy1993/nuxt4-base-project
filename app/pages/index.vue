@@ -1,8 +1,8 @@
 <template>
   <section>
     <!-- Hero section loads immediately since it's above the fold -->
-    <LazyHomeHeroSection />
-    <LazyHomeProducts />
+    <LazyHomeHeroSection hydrate-on-visible />
+    <LazyHomeProducts :hydrate-on-visible="{ threshold: 0.1 }" />
   </section>
 </template>
 
